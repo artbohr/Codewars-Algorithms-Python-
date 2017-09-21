@@ -17,10 +17,17 @@ max_pizza(3) == 7
 
 '''
 
-def max_pizza( cut ):
+
+def max_pizza(cut):
     if cut < 0:
         return -1
-    elif cut==0:
-        return 1  
+    elif cut == 0:
+        return 1
     else:
         return (cut*(cut+1)/2)+1
+
+
+print(max_pizza(4))
+
+# outputs 11.0
+
