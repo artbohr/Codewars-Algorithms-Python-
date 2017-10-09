@@ -17,3 +17,6 @@ def solve(arr):
         result.append(count)
 
     return result
+    
+print(solve(["IAMDEFANDJKL","thedefgh","xyzDEFghijabc"]))
+# Prints: [6, 5, 7]
