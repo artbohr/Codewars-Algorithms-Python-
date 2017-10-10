@@ -17,7 +17,6 @@ max_pizza(3) == 7
 
 '''
 
-
 def max_pizza(cut):
     if cut < 0:
         return -1
@@ -26,8 +25,6 @@ def max_pizza(cut):
     else:
         return (cut*(cut+1)/2)+1
 
-
 print(max_pizza(4))
-
-# outputs 11.0
+# Prints: 11.0
 
