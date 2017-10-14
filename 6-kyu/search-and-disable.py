@@ -1,4 +1,7 @@
 '''
+Your task is to search through a string of integers related to BOT system
+internals found during a recent scan of communication systems searching for a pattern.
+
 100 ≤ log ≤ 100000
 1 ≤ n ≤ 10000
 
